@@ -12,6 +12,9 @@
   footer .social {
     width: 100%;
   }
+  .mifoto{
+    background-position:0 !important ;
+  }
 }
 html {
   scroll-behavior: smooth;
@@ -21,7 +24,14 @@ body{
 }
 .bg-yo{
 	height: 45vh;
-	background-color: beige;
+}
+.mifoto{
+  background-image: url("../img/pp.jpeg");
+  background-repeat: no-repeat;
+  background-position: 31em ;
+}
+.about_tit{
+  font-family: 'Lilita One', cursive;
 }
 footer {
   width: 100%;
@@ -109,4 +119,7 @@ footer{
 }
 .progress{
   height: 2rem;
+}
+.btn-contact{
+  margin-left: 41%;
 }

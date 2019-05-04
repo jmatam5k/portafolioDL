@@ -15,4 +15,5 @@ $(document).ready(function($) {
 		$('.modal-title').html('Titulo 3');
 		$('.modal-body').html('Contenido 3');
 	});
+	$('[data-toggle="tooltip"]').tooltip()
 });
