@@ -34,7 +34,7 @@
   </nav>
   <section class="bg-yo">
   </section>
-  <section id="about-me" class="about-me">
+  <section id="about-me" class="about-me d-none d-sm-block">
     <div class="col-md-12">
       <div class="sub-title text-center">
         <h2 class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
@@ -52,7 +52,7 @@
         <h2 class="mt-5 text-light">Lorem ipsum dolor sit amet</h2>
         <p class="mb-5"> amet nobis placeat quo consequuntur accusantium esse recusandae?</p>
       </div>
-      <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -62,9 +62,7 @@
               </button>
             </div>
             <div class="modal-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -81,7 +79,7 @@
           </div>
           <div class="card-footer text-muted">
             <div class="">
-              <button type="button" class="btn btn-info float float-right" data-toggle="modal" data-target="#mymodal">
+              <button id="seeMore1" type="button" class="btn btn-info float float-right" data-toggle="modal" data-target="#mymodal">
                 <span class="mr-1">See more</span><i class="fas fa-plus"></i>
               </button>
             </div>
@@ -94,7 +92,7 @@
           </div>
           <div class="card-footer text-muted">
             <div>
-              <button type="button" class="btn btn-info float float-right" data-toggle="modal" data-target="#mymodal">
+              <button id="seeMore2" type="button" class="btn btn-info float float-right" data-toggle="modal" data-target="#mymodal">
                 <span class="mr-1">See more</span><i class="fas fa-plus"></i>
               </button>
             </div>
@@ -117,7 +115,9 @@
     </div>  
   </section>
   <section id="contacto" class="contact">
-
+    <div class="container">
+      <a class="typeform-share button" href="https://jennifermatamala.typeform.com/to/gaatKK" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Contacto </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+    </div>
   </section>
   <footer>
     <div class="social">
